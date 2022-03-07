@@ -120,10 +120,7 @@ public class movimento : MonoBehaviour
         }
         //if (Time.frameCount % 30 == 0) GC.Collect();
     }
-    /*
-    COISAS PARA ADICIONAR NESSE CÓDIGO
-
-     */
+   
     private void FixedUpdate()
     {
         if (outOfScreen) timeOut++;
